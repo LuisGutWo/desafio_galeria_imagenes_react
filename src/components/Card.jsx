@@ -8,6 +8,7 @@ const Card = ({ cardImage, cardTitle, cardText, children }) => {
       <div className="card-body p-3">
         <h5 className="card-title text-decoration-underline">{cardTitle}</h5>
         <p className="card-text">{cardText}</p>
+        <button className="btn btn-primary btn-sm">Ver mas</button>
         {children}
       </div>
     </div>
