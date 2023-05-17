@@ -1,13 +1,14 @@
 import Card from "./components/Card";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import './index.css' 
 
 const App = () => {
   return (
     <>
       <Header title="Galería de imágenes con React" className="header-text" />
       <div className="container">
-        <div className="d-flex flex-wrap justify-content-center align-items-center gap-3">
+        <div className="card-container">
           <Card
             cardImage="src/assets/images/pexels-ryutaro-tsukata-5220061.jpg"
             cardTitle="Jardín Japones"
